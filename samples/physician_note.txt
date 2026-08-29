@@ -1,0 +1,38 @@
+CITYCARE MULTISPECIALTY HOSPITAL — CARDIOLOGY OPD
+PROGRESS NOTE (FOLLOW-UP VISIT)
+Date: 20-Aug-2026
+
+Patient: Ramesh Kumar | 62 M | MRN-483920
+Known: HFrEF (EF 32%), T2DM, CKD 3a, HTN. Discharged 10-Aug-2026
+after admission for acute decompensated heart failure.
+
+S: Feels better than at discharge. Mild breathlessness on climbing
+one flight of stairs, none at rest. No orthopnea, no PND. Reports
+2 episodes of light-headedness on standing this week. Compliant
+with fluid restriction; home weights stable (77.9-78.6 kg).
+Missed evening carvedilol dose "2-3 times" last week.
+
+O: BP 104/66 mmHg sitting, 92/60 standing. HR 68 regular.
+Chest clear. No pedal edema. JVP not elevated.
+Labs (18-Aug, outside lab) reviewed — see report: K+ 2.9 (low),
+creatinine 1.7 (up from 1.5 at discharge), HbA1c 8.4%.
+
+A:
+1. HFrEF — clinically euvolemic, improving.
+2. Symptomatic postural hypotension — likely over-diuresis
+   + ACE inhibitor; contributed to by hypokalemia.
+3. Hypokalemia (K+ 2.9) — needs correction and recheck.
+4. CKD — creatinine trending up, monitor.
+5. T2DM — above target (HbA1c 8.4%); endocrine referral per
+   discharge plan.
+
+P:
+1. Reduce furosemide to 40 mg PO once daily (morning).
+2. Start potassium chloride 20 mEq PO twice daily x 5 days.
+3. Repeat electrolytes + creatinine in 5-7 days.
+4. Counselled on carvedilol adherence; continue current dose.
+5. Refer Endocrinology for diabetes optimisation.
+6. Review in OPD in 2 weeks with repeat labs; earlier if
+   palpitations, muscle weakness, or syncope.
+
+Dr. Anita Deshpande, MD (Cardiology)

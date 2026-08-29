@@ -1,0 +1,56 @@
+CITYCARE MULTISPECIALTY HOSPITAL
+DISCHARGE SUMMARY
+------------------------------------------------------------
+Patient Name : Ramesh Kumar                MRN: MRN-483920
+Age / Sex    : 62 / Male                   DOB: 14-Mar-1964
+Admitted     : 04-Aug-2026                 Discharged: 10-Aug-2026
+Consultant   : Dr. Anita Deshpande, MD (Cardiology)
+------------------------------------------------------------
+
+REASON FOR ADMISSION
+Progressive breathlessness over 5 days, orthopnea, and bilateral
+pedal edema. Admitted via emergency department.
+
+DISCHARGE DIAGNOSES
+1. Acute decompensated heart failure (HFrEF, EF 32% on echo)
+2. Type 2 diabetes mellitus, poorly controlled
+3. Chronic kidney disease, stage 3a
+4. Hypertension
+
+HOSPITAL COURSE
+Patient presented with acute decompensated heart failure. He was
+treated with IV furosemide with good diuretic response; weight
+reduced by 4.2 kg during admission. Echocardiography showed left
+ventricular ejection fraction of 32% with global hypokinesia.
+Blood sugars remained elevated during stay; insulin sliding scale
+used in hospital and oral regimen intensified at discharge.
+Renal function remained stable (creatinine 1.5 mg/dL at discharge).
+
+ALLERGIES
+PENICILLIN — documented rash and facial swelling (2019).
+
+DISCHARGE MEDICATIONS
+1. Furosemide 40 mg PO twice daily
+2. Ramipril 2.5 mg PO once daily
+3. Carvedilol 3.125 mg PO twice daily
+4. Metformin 1000 mg PO twice daily
+5. Empagliflozin 10 mg PO once daily
+6. Atorvastatin 40 mg PO at night
+
+VITALS AT DISCHARGE
+BP 128/78 mmHg | HR 74 bpm | SpO2 96% on room air | Weight 78.4 kg
+
+DIET AND ACTIVITY
+Fluid restriction 1.5 L/day. Salt-restricted diet (<2 g sodium/day).
+Daily weight monitoring at home; report gain of >2 kg in 3 days.
+
+FOLLOW-UP INSTRUCTIONS
+1. Review in Cardiology OPD in 2 weeks with repeat renal function
+   tests and serum electrolytes (bring reports).
+2. Repeat HbA1c in 4 weeks — Endocrinology referral if >8%.
+3. Return IMMEDIATELY if: breathlessness at rest, chest pain,
+   weight gain >2 kg in 3 days, or reduced urine output.
+
+Electronically signed:
+Dr. Anita Deshpande, MD (Cardiology)
+Reg. No. MH-2004-11872 | 10-Aug-2026 16:42
