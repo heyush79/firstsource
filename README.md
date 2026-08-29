@@ -1,4 +1,3 @@
-#StreamLit Link : https://clinical-doc-app.streamlit.app/
 # Clinical Document Intelligence Hub
 
 **Live demo:** https://clinical-doc-app.streamlit.app
