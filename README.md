@@ -1,5 +1,7 @@
 # Clinical Document Intelligence Hub
 
+**Live demo:** https://clinical-doc-app.streamlit.app
+
 AI proof-of-concept for the Firstsource POC stage: ingests unstructured clinical
 documents (text, PDF, or scanned image), extracts structured clinical data with
 per-section confidence scores, and produces a decision-ready **patient summary
