@@ -60,9 +60,9 @@ def make_lab_report_pdf() -> Path:
         "Reported   : 18-Aug-2026 14:05",
         "Referred by: Dr. Anita Deshpande (Cardiology)",
     ]
-    for l, r in zip(left, right):
-        pdf.cell(95, 5, l)
-        pdf.cell(95, 5, r, ln=True)
+    for left_cell, right_cell in zip(left, right, strict=True):
+        pdf.cell(95, 5, left_cell)
+        pdf.cell(95, 5, right_cell, ln=True)
     pdf.ln(3)
 
     # Table header

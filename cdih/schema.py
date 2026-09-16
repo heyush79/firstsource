@@ -5,7 +5,6 @@ constrained to return valid JSON matching this shape — no free-text parsing.
 """
 
 from enum import Enum
-from typing import Optional
 
 from pydantic import BaseModel, Field
 
@@ -41,37 +40,37 @@ class LabFlag(str, Enum):
 
 
 class Patient(BaseModel):
-    name: Optional[str] = None
-    age: Optional[str] = None
-    sex: Optional[str] = None
-    date_of_birth: Optional[str] = None
-    patient_id: Optional[str] = Field(None, description="MRN or any identifier printed on the document")
+    name: str | None = None
+    age: str | None = None
+    sex: str | None = None
+    date_of_birth: str | None = None
+    patient_id: str | None = Field(None, description="MRN or any identifier printed on the document")
 
 
 class Diagnosis(BaseModel):
     name: str
-    status: Optional[str] = Field(None, description="active, resolved, suspected, or historical")
-    icd10_hint: Optional[str] = Field(None, description="Likely ICD-10 code if confidently inferable, else null")
+    status: str | None = Field(None, description="active, resolved, suspected, or historical")
+    icd10_hint: str | None = Field(None, description="Likely ICD-10 code if confidently inferable, else null")
 
 
 class Medication(BaseModel):
     name: str
-    dose: Optional[str] = None
-    frequency: Optional[str] = None
-    route: Optional[str] = None
+    dose: str | None = None
+    frequency: str | None = None
+    route: str | None = None
 
 
 class Vital(BaseModel):
     name: str
     value: str
-    unit: Optional[str] = None
+    unit: str | None = None
 
 
 class LabResult(BaseModel):
     test: str
     value: str
-    unit: Optional[str] = None
-    reference_range: Optional[str] = None
+    unit: str | None = None
+    reference_range: str | None = None
     flag: LabFlag = LabFlag.NORMAL
 
 
@@ -84,23 +83,23 @@ class RiskFlag(BaseModel):
 class Triage(BaseModel):
     category: TriageCategory
     rationale: str
-    suggested_department: Optional[str] = None
+    suggested_department: str | None = None
     recommended_next_steps: list[str] = Field(default_factory=list)
 
 
 class FieldConfidence(BaseModel):
     field: str = Field(description="Section name, e.g. 'patient', 'medications', 'lab_results'")
     confidence: float = Field(ge=0.0, le=1.0)
-    note: Optional[str] = Field(None, description="Why confidence is reduced, if it is")
+    note: str | None = Field(None, description="Why confidence is reduced, if it is")
 
 
 class ExtractionResult(BaseModel):
     """Everything the pipeline extracts from one clinical document."""
 
     document_type: DocumentType
-    document_date: Optional[str] = None
+    document_date: str | None = None
     patient: Patient
-    chief_complaint: Optional[str] = None
+    chief_complaint: str | None = None
     diagnoses: list[Diagnosis] = Field(default_factory=list)
     medications: list[Medication] = Field(default_factory=list)
     allergies: list[str] = Field(default_factory=list)
@@ -132,7 +131,7 @@ class ChangeType(str, Enum):
 class MedicationChange(BaseModel):
     medication: str
     change: ChangeType
-    detail: Optional[str] = None
+    detail: str | None = None
 
 
 class LabTrend(BaseModel):

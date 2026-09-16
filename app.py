@@ -204,9 +204,9 @@ def render_extraction(result: ExtractionResult, model_used: str):
     with c2:
         if result.lab_results:
             st.markdown("**🧪 Lab results**")
-            st.table([{"Test": l.test, "Value": f"{l.value} {l.unit or ''}".strip(),
-                       "Reference": l.reference_range or "—", "Flag": l.flag.value}
-                      for l in result.lab_results])
+            st.table([{"Test": lab.test, "Value": f"{lab.value} {lab.unit or ''}".strip(),
+                       "Reference": lab.reference_range or "—", "Flag": lab.flag.value}
+                      for lab in result.lab_results])
         if result.vitals:
             st.markdown("**❤️ Vitals**")
             st.table([{"Vital": v.name, "Value": f"{v.value} {v.unit or ''}".strip()}

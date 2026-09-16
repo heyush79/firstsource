@@ -16,8 +16,8 @@ import os
 import time
 
 from google import genai
-from google.genai import types
 from google.genai import errors as genai_errors
+from google.genai import types
 
 from .ingest import IngestedDocument
 from .schema import ComparisonResult, ExtractionResult
